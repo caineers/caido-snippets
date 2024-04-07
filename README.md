@@ -1,4 +1,4 @@
-# caido-snippets
+# Caido Snippets
 ## Filters presets
 ### No Browser's own request
 ```lua
