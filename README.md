@@ -2,7 +2,7 @@
 ## Filters presets
 ### No Browser's own request
 ```lua
-(req.host.ncont:"incoming.telemetry.mozilla.org" AND (req.host.ncont:"safebrowsing.googleapis.com" AND (req.host.ncont:"firefox.settings.services.mozilla.com" AND (req.host.ncont:"update.googleapis.com" AND (req.host.ncont:"clients4.google.com" AND (req.host.ncont:"clients2.google.com" AND (req.host.ncont:"msftncsi.com" AND (req.host.ncont:"msftconnecttest.com" AND (req.host.ncont:"edge.microsoft.com" AND (req.host.ncont:"apple.com" AND req.host.ncont:"icloud.com"))))))))))
+(req.host.ncont:"safebrowsing.googleapis.com" AND (req.host.ncont:"detectportal.firefox.com" AND (req.host.nregex:".*.mozilla.(com|org|net)" AND (req.host.ncont:"spocs.getpocket.com" AND (req.host.ncont:"update.googleapis.com" AND (req.host.ncont:"optimizationguide-pa.googleapis.com" AND (req.host.ncont:"content-autofill.googleapis.com" AND (req.host.ncont:"clients4.google.com" AND (req.host.ncont:"clients2.google.com" AND (req.host.ncont:"msftncsi.com" AND (req.host.ncont:"msftconnecttest.com" AND (req.host.ncont:"edge.microsoft.com" AND (req.host.ncont:"apple.com" AND req.host.ncont:"icloud.com")))))))))))))
 ```
 
 ## Assistant prompts
