@@ -19,7 +19,7 @@ resp.raw.regex:"(?i)Set-Cookie:"
 
 ### Hide `.js`
 ```lua
-req.path.nlike:".js"
+req.ext.ncont:"js"
 ```
 
 ## 🤖 Assistant prompts [^2]
