@@ -17,6 +17,11 @@ resp.raw.regex:"(?i)Set-Cookie:"
 (resp.raw.regex:"(?i)Location: " OR (resp.code.eq:301 OR (resp.code.eq:302 OR (resp.code.eq:307 OR resp.code.eq:308))))
 ```
 
+### Hide `.js`
+```lua
+req.path.nlike:".js"
+```
+
 ## 🤖 Assistant prompts [^2]
 [^2]: Sidebar > assistant
 
