@@ -1,6 +1,7 @@
 # Caido Snippets
 ## 🔎 Filters presets [^1]
-### No Browser's own request
+[^1]: Sidebar > filters
+### Hide Browser's own requests
 ```lua
 (req.host.ncont:"safebrowsing.googleapis.com" AND 
 (req.host.ncont:"detectportal.firefox.com" AND 
@@ -21,7 +22,13 @@
 (req.host.ncont:"versioncheck-bg.addons.mozilla.org")))))))))))))))))
 ```
 
-[^1]: Sidebar > filters
+### Hide 3rd party requests
+
+```lua
+req.host.ncont:"www.google-analytics.com" AND
+req.host.ncont:"darkreader.org"
+AND req.host.ncont:"www.googletagmanager.com"
+```
 
 ### Only `Set-Cookie`
 ```lua
