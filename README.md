@@ -17,9 +17,6 @@ req.host.ncont:"msftconnecttest.com" AND
 req.host.ncont:"edge.microsoft.com" AND 
 req.host.ncont:"apple.com" AND 
 req.host.ncont:"icloud.com" AND 
-req.host.ncont:"content-signature-2.cdn.mozilla.net" AND 
-req.host.ncont:"normandy.cdn.mozilla.net" AND 
-req.host.ncont:"versioncheck-bg.addons.mozilla.org"
 ```
 
 ### No 3rd-party requests
