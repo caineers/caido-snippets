@@ -48,6 +48,16 @@ req.ext.ncont:"js"
 ## 🔩 GraphQL snippet [^3]
 [^3]: Topbar > User > GraphQL Playground
 
+### Caido version and platform
+```graphql
+{
+  runtime{
+    version
+    platform
+  }
+}
+```
+
 ## 🪄 Trick
 ### Get AccessToken
 
