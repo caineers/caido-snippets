@@ -1,4 +1,7 @@
 # Caido Snippets
+
+![](/images/banner.jpg)
+
 ## 🔎 Filters presets [^1]
 [^1]: Sidebar > filters
 ### No Browser's own requests
